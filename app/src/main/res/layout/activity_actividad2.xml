@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".actividad2">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATOS DE LA MATRICULA"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/txtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/txtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/txtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <TextView
+        android:id="@+id/txtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/txtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Volver al principal"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background" />
+</LinearLayout>
